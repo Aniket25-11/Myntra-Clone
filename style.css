@@ -1,0 +1,130 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@30&display=swap'); */
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 66px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1,95px 2.6px;
+} 
+
+.rightBox {
+    display: flex;
+    margin: 12px;
+}
+
+
+
+.left img {
+    width: 45px;
+    height: 26px;
+}
+
+.container {
+    /* max-width: 80vm; */
+    padding:0 10vm;
+    /* align-items: center; */
+    /* margin: 13px 0px; */
+}
+
+.containerHeader {
+    /* max-width: 80vm; */
+    padding:0 10vm;
+    /* align-items: center; */
+    /* margin: 13px 0px; */
+}
+
+nav {
+    font-size: 12px;
+    padding-top: 14px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 12px;
+}
+
+.section1 {
+    background-color: rgb(239, 239, 239);
+    margin-left: 140px;
+    /* height: 122vh;    */
+}
+
+.search {
+    width: 34vw;
+    padding: 7px 17px;
+    border: 0.5px solid gray;
+    background-color: #ece8f6;
+    border-radius: 5px;
+}
+
+.homeImg {
+    width: 80vw;
+    margin: 12px 0;
+}
+
+.itemImg {
+    width: 10vw;
+    margin: 6px 12px;
+}
+
+footer {
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 /24% ) 0px 3px 8px;
+}
+
+.tall {
+    min-height: 40vh;
+}
+
+@media (max-width: 450px) {
+    .search {
+        width: 72vw;
+    }
+}
+
+@media (max-width: 1250px) {
+
+    nav ul li {
+        list-style: none;
+        padding: 0 4px;
+        font-size: 10px;
+    }
+
+    .search {
+        width: 72px;
+        padding: 7px 17px;
+        border: 0.5px solid grey;
+        background: #f7f8fd;
+        border-radius: 5px;
+    }
+
+    .containerHeader {
+        padding: 0 2vw;
+    }
+
+    header {
+        background: red;
+        height: 122px;
+    }
+    nav {
+        flex-directon: column;
+        align-items: center;
+    }
+    .right{
+        flex-direction: column;
+    }
+    .rightBox {
+        display: flex;
+        margin: 12px;
+    }
+}
